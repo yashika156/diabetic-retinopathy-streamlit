@@ -11,3 +11,14 @@ A Streamlit-based web application that uses a Convolutional Neural Network (CNN)
 
 ## 📂 Project Structure
 
+## 🧪 How to Run
+
+1. Clone the repo:
+```bash
+git clone https://github.com/YOUR_USERNAME/diabetic-retinopathy-streamlit.git
+cd diabetic-retinopathy-streamlit
+
+pip install -r requirements.txt
+
+
+streamlit run main.py
