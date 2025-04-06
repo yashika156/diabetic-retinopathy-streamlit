@@ -3,7 +3,8 @@ import numpy as np
 from PIL import Image
 from keras.models import load_model
 
-model = load_model("model/dr_cnn_model.h5")
+model = load_model("dr_cnn_model.h5")
+
 st.title("🧠 Diabetic Retinopathy Classifier")
 
 uploaded = st.file_uploader("Upload Retina Image", type=["jpg", "png", "jpeg"])
